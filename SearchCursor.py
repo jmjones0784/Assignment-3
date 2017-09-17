@@ -7,5 +7,5 @@ with arcpy.da.SearchCursor(fc, fields) as cursor:
     for row in cursor:
         print(row[0])
         print(row[1])
-        print(row[2] + " " + row[3])
+        print(row[2] + ", " + row[3] + " " + row[4])
         print("\n")
