@@ -1,4 +1,4 @@
-import arcpy
+import arcpy, os
 from arcpy import env
 
 env.workspace = r'C:\Student\AS.430.606\Assignment3\Assignment3\Newark.gdb'
